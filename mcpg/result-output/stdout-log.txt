@@ -1,0 +1,2 @@
+
+ErrorCountBeforeTrain:25052,ErrorCountAfterTrain:0
