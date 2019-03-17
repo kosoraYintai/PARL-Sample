@@ -4,6 +4,9 @@ simple examples for baidu parl, easy to understand
 
 ![img](/mcpg/result-output/result.gif)
 
+* [DQN](/dqn_dnn/): deep-Q-network
+![img](/dqn_dnn/log_dir/train.jpg)
+
 ## Dependencies
 
 * Sklearn
