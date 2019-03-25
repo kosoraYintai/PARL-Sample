@@ -150,7 +150,7 @@ def test():
     algorithm = DQN(model, hyperparas)
     agent = MazeAgent(algorithm, action_dim)
     restore(agent) 
-    print("\n再次加载,结果不一致:")
+    print("\n再次加载:")
     print()
     seeMaze(env)
     print()
