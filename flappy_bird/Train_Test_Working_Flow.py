@@ -40,7 +40,7 @@ UPDATE_FREQ = 2
 GAMMA = 0.99
 
 #学习率
-LEARNING_RATE = 1e-3
+LEARNING_RATE = 1e-3 * 0.5
 
 #一共走多少步
 TOTAL=1e6
