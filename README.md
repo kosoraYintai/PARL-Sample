@@ -1,10 +1,10 @@
 # PARL-Sample
 simple examples for baidu parl, easy to understand
-* [MCPG(Monte-Carlo-Policy-Gradient)](/mcpg/)
+* [maze using MCPG](/mcpg/)
 
 ![img](/mcpg/result-output/result.gif)
 
-* [DQN(deep-Q-network)](/dqn_dnn/)
+* [maze using union-find(to do)](/dqn_dnn/)
 
 ![img](/dqn_dnn/log_dir/train.jpg)
 
