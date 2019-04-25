@@ -17,13 +17,6 @@ simple examples for baidu parl, easy to understand
 my blog in baidu ai-studio: [paddlepaddle版Flappy-Bird](https://aistudio.baidu.com/aistudio/#/projectdetail/51092)
 
 
-[parl's setup.py for windows](/setup-for-windows/)
-
-If you meet some exceptions in using 'pip install parl' command for windows, please use 'python setup.py install' in your local file system
-and use the setup.py in my project instead of parl's default setup.py.
-
-(在windows下使用 'pip install parl' 命令可能会出现错误，这时候建议使用 'python setup.py install' 命令进行本地安装，并使用本项目的setup.py代替parl默认的setup.py)
-
 ## Dependencies
 
 * Sklearn
@@ -34,3 +27,11 @@ and use the setup.py in my project instead of parl's default setup.py.
 * opencv-python
 * pygame
 * tqdm
+
+## Tricks
+* [parl's setup.py for windows](/setup-for-windows/)
+
+If you meet some exceptions in using 'pip install parl' command for windows, please use 'python setup.py install' in your local file system
+and use the setup.py in my project instead of parl's default setup.py.
+
+(在windows下使用 'pip install parl' 命令可能会出现错误，这时候建议使用 'python setup.py install' 命令进行本地安装，并使用本项目的setup.py代替parl默认的setup.py)
