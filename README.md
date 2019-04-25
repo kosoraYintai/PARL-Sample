@@ -16,6 +16,7 @@ simple examples for baidu parl, easy to understand
 
 my blog in baidu ai-studio: [paddlepaddle版Flappy-Bird](https://aistudio.baidu.com/aistudio/#/projectdetail/51092)
 
+
 * [parl's setup.py for windows](/setup-for-windows/)
 If you meet some exceptions in using 'pip install parl' command for windows, please use 'python setup.py install' in your local file system
 and use the setup.py in my project instead of parl's default setup.py.
