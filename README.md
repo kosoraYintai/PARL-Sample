@@ -1,5 +1,5 @@
 # PARL-Sample
-some example for baidu parl, easy to understand
+深度强化学习，使用百度PARL框架
 * [策略梯度算法走迷宫](/mcpg/)
 
 ![img](/mcpg/result-output/result.gif)
