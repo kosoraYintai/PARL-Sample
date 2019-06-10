@@ -6,7 +6,6 @@ from parl.framework.agent_base import Agent
 
 SpaceLen=2
 
-
 class MazeAgent(Agent):
     def __init__(self, algorithm, action_dim):
         super(MazeAgent, self).__init__(algorithm)
@@ -14,7 +13,10 @@ class MazeAgent(Agent):
         self.exploration = 0.9 
         self.action_dim = action_dim
         self.global_step = 0
+        #每多少步更新目标网络,超参数可微调
         self.update_target_steps = 10000 // 5
+        #每步探索的衰减程度,超参数可微调
+        self.exploration_dacay=1e-5
 
     def build_program(self):
         self.learn_programs = []
@@ -58,7 +60,7 @@ class MazeAgent(Agent):
                     fetch_list=[self.value])[0]
             pred_Q = np.squeeze(pred_Q, axis=0)
             act = np.argmax(pred_Q)
-        self.exploration = max(0.05, self.exploration - 2e-5)
+        self.exploration = max(0.05, self.exploration - self.exploration_dacay) 
         return act
     
     def predict(self, obs):
@@ -77,7 +79,8 @@ class MazeAgent(Agent):
         self.global_step += 1
 
         act = np.expand_dims(act, -1)
-        reward = np.clip(reward, -1, 1)
+        #去掉clip操作收敛更快
+#        reward = np.clip(reward, -1, 1)
         feed = {
             'obs': obs.astype('float32'),
             'act': act.astype('int32'),
