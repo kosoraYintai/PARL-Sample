@@ -1,7 +1,7 @@
 # PARL-Sample
 游戏智能+少儿编程，使用深度强化学习框架PARL，包含PG、DQN、Rainbow等算法
 
-[## 策略梯度算法走迷宫](/mcpg/)
+## [策略梯度算法走迷宫](/mcpg/)
 
 ![img](/mcpg/result-output/result.gif)
 
