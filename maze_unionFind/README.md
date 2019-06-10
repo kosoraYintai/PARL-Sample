@@ -9,10 +9,10 @@
 甚至学习率、经验池大小、batchSize等等超参数都相同。若要训练更大的迷宫，则可微调超参数，或者增加神经网络的深度与宽度。
 
 平均奖励的学习曲线:
-![img](/maze_unionFind/log_dir/learningCurve.jpeg) 
+![img](/maze_unionFind/log_dir/learningCurve.png) 
 4*4迷宫:
 
-![img](/flappy_bird/maze_unionFind/4X4.gif)    
+![img](/flappy_bird/maze_unionFind/4X4.jpg)    
 
 4*5迷宫:
-![img](/flappy_bird/maze_unionFind/4X5.gif)    
+![img](/flappy_bird/maze_unionFind/4X5.jpg)    
