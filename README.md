@@ -33,5 +33,3 @@ B站4分钟完整版: [DQN for Flappy-Bird](https://www.bilibili.com/video/av492
 
 在windows下使用 'pip install parl' 命令可能会出现错误，这时候建议使用 'python setup.py install' 命令进行本地安装，并使用本项目的setup.py代替parl默认的setup.py
 
-(If you meet some exceptions by using 'pip install parl' command for windows, please use 'python setup.py install' in your local file system
-and use the setup.py in my project instead of parl's default setup.py.)
