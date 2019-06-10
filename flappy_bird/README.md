@@ -1,6 +1,6 @@
 控制台日志:
 ![img](/flappy_bird/log_dir/console_out.jpg) 
-learning curve:
+平均奖励的学习曲线:
 ![img](/flappy_bird//log_dir/trainCurve.jpeg) 
 3300轮训练之后:
 
