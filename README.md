@@ -1,5 +1,6 @@
 # PARL-Sample
-深度强化学习，使用百度PARL框架
+深度强化学习，使用前沿框架PARL,包含PG、DQN、Rainbow等算法
+
 * [策略梯度算法走迷宫](/mcpg/)
 
 ![img](/mcpg/result-output/result.gif)
@@ -16,6 +17,7 @@ B站4分钟完整版: [DQN for Flappy-Bird](https://www.bilibili.com/video/av492
 
 百度ai-studio博客地址: [paddlepaddle版Flappy-Bird](https://aistudio.baidu.com/aistudio/#/projectdetail/51092)
 
+* [使用Rainbow模型刷ACM题(todo)](/eight_puzzle/)
 
 ## 依赖库
 
