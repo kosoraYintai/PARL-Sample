@@ -5,6 +5,8 @@
 
 ![img](/mcpg/result-output/result.gif)
 
+* 读芯术论文地址：[PARL源码走读——使用策略梯度算法求解迷宫寻宝问题](https://mp.weixin.qq.com/s/D8Z2F-tOjmwl8UpmGee4Bg)
+
 ## [并查集+DQN版通用迷宫](/maze_unionFind/)
 
 ![img](/maze_unionFind/log_dir/result.jpg)
