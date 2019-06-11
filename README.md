@@ -25,6 +25,7 @@
 ## [使用Rainbow模型刷ACM题(todo)](/eight_puzzle/)
 
 整体架构：
+
 ![img](/eight_puzzle/imgs/architecture.jpg) 
 
 ## 依赖库
