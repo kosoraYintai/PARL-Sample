@@ -28,7 +28,7 @@
 
 ![img](/eight_puzzle/imgs/architecture.jpg) 
 
-效果：运行速度是提交榜的Top1,成为LeetCode八数码问题的默认算法！
+效果：运行速度是提交榜的Top1，成为LeetCode八数码问题的默认算法！
 
 ![img](/eight_puzzle/imgs/top1.jpg) 
 
