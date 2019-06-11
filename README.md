@@ -5,7 +5,7 @@
 
 ![img](/mcpg/result-output/result.gif)
 
-* 读芯术论文地址：[PARL源码走读——使用策略梯度算法求解迷宫寻宝问题](https://mp.weixin.qq.com/s/D8Z2F-tOjmwl8UpmGee4Bg)
+* 论文地址：[PARL源码走读——使用策略梯度算法求解迷宫寻宝问题](https://mp.weixin.qq.com/s/D8Z2F-tOjmwl8UpmGee4Bg)
 
 ## [并查集+DQN版通用迷宫](/maze_unionFind/)
 
@@ -15,7 +15,7 @@
 
 ![img](/flappy_bird/log_dir/birdTest01.gif)    ![img](/flappy_bird/log_dir/birdTest02.gif)
 
-* PaperWeekly论文地址：[PaddlePaddle版Flappy-Bird—使用DQN算法实现游戏智能](https://mp.weixin.qq.com/s/R7gV0j5RMg9080d7qvvn2g)
+* 论文地址：[PaddlePaddle版Flappy-Bird—使用DQN算法实现游戏智能](https://mp.weixin.qq.com/s/R7gV0j5RMg9080d7qvvn2g)
 
 * B站4分钟完整版: [DQN for Flappy-Bird](https://www.bilibili.com/video/av49282860/)
 
