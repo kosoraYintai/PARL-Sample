@@ -30,7 +30,9 @@ def seeBestPath(env,path):
             else:
                 print('X',end=' ')
         print()
-        
+
+#状态的维度
+StateShape=(2,)        
 #------hyper parameters start
 #以下超参数均可微调
 #需要训练几行几列的迷宫
@@ -40,7 +42,7 @@ mazeCol=6
 MEMORY_SIZE = int(1e4)
 #warm-up
 MEMORY_WARMUP_SIZE = MEMORY_SIZE // 4
-StateShape=(2,)
+
 #网络学习频率
 UPDATE_FREQ = 2
 #衰减系数
