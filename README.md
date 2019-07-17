@@ -22,15 +22,13 @@
 * 百度ai-studio博客地址: [paddlepaddle版Flappy-Bird](https://aistudio.baidu.com/aistudio/#/projectdetail/51092)
 
 
-## [使用Rainbow模型刷ACM题(todo)](/eight_puzzle/)
+## [使用Rainbow模型求解八数码问题](/eight_puzzle/)
 
-整体架构：
-
-![img](/eight_puzzle/imgs/architecture.jpg) 
-
-效果：运行速度是提交榜的Top1，成为LeetCode八数码问题的默认算法！
+击败100%的代码，是LeetCode八数码的默认解题算法！
 
 ![img](/eight_puzzle/imgs/top1.jpg) 
+
+* 百度ai-studio博客地址: [当A*Star遇见PARL——使用Rainbow模型切ACM题](https://aistudio.baidu.com/aistudio/projectdetail/63441)
 
 ## 依赖库
 
