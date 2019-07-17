@@ -2,11 +2,11 @@
 
 ![img](/eight_puzzle/imgs/architecture.jpg) 
 
-对比普通DQN的平均奖励:
+对比Rainbow和普通DQN的平均奖励:
 
 ![img](/eight_puzzle/imgs/reward_curve.jpg) 
 
-对比普通DQN的平均步数:
+对比Rainbow和普通DQN的平均步数:
 
 ![img](/eight_puzzle/imgs/step_curve.jpg) 
 
