@@ -197,7 +197,7 @@ def train():
             __, step = run_train_episode(env, agent, rpm)
             total_step += step
             if trainEp%logFreq==0:
-                pbar.set_description('totaxep:{},exploration:{:.3f}'.format(total_step,agent.exploration))
+                pbar.set_description('totalStep:{},exploration:{:.3f}'.format(total_step,agent.exploration))
             pbar.update(step)
 
     save(agent)
