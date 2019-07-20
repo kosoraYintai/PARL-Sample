@@ -12,20 +12,36 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import codecs
 import sys
 import os
 import re
 from setuptools import setup, find_packages
 
-
-
 setup(
     name='parl',
     version=1.1,
+    description='Reinforcement Learning Framework',
+    url='https://github.com/PaddlePaddle/PARL',
 	packages=[package for package in find_packages()
               if package.startswith('parl')],
     package_data={'': ['*.so']},
     install_requires=[
         "termcolor>=1.1.0",
+        "pyzmq==18.0.1",
+        "pyarrow==0.13.0",
+        "scipy>=1.0.0",
+        "cloudpickle==1.0.0",
+        "tensorboardX",
+        "tensorboard",
+    ],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
