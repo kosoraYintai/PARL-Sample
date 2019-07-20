@@ -30,6 +30,11 @@
 
 * 百度ai-studio博客地址: [当A*Star遇见PARL——使用Rainbow模型切ACM题](https://aistudio.baidu.com/aistudio/projectdetail/63441)
 
+
+## [使用A2C算法实现躺赢(todo)](/A2C/)
+
+![img](/A2C/躺赢.gif) 
+
 ## 依赖库
 
 * Sklearn
