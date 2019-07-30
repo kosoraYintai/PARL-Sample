@@ -97,7 +97,7 @@ def run_train_episode(env, agent, rpm):
         rpm.append(Experience(context, action, reward, isOver,stateNext))
         if rpm.size() > MEMORY_WARMUP_SIZE:
             if step % UPDATE_FREQ == 0:
-                #从replay_buffer中随机采样
+                #从replay_buffer中优先级采样
                 batch_state, batch_action, batch_reward, batch_isOver,batch_next_state,\
                 batch_old_td,tree_index = rpm.sample_batch(batchSize)
                 cost,newTd = agent.learn(batch_state, batch_action, batch_reward,batch_next_state, batch_isOver,batch_old_td)
