@@ -30,6 +30,9 @@
 
 * 百度ai-studio博客地址: [当A*Star遇见PARL——使用Rainbow模型切ACM题](https://aistudio.baidu.com/aistudio/projectdetail/63441)
 
+## [CNN版Rainbow模型(2300轮后小鸟不死)](/flappy_bird/Train_Bird_PriorityRPM.py)
+
+![img](/flappy_bird/log_dir/Train_Bird_PriorityRPM/consoleOut.png) 
 
 ## [使用A2C算法实现躺赢(todo)](/A2C/)
 
