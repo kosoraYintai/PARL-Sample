@@ -1,0 +1,2 @@
+[32m[07-30 19:44:44 MainThread @logger.py:144][0m Argv: C:\coding\MyEclipse\workspace\PARL-Sample\flappy_bird\Train_Bird_PriorityRPM.py
+[33m[07-30 19:45:59 MainThread @machine_info.py:88][0m [5m[33mWRN[0m Cannot find available GPU devices, using CPU now.
